@@ -1,0 +1,95 @@
+ 
+
+ body {
+    background-color: rgb(241, 255, 237);
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    display: flex; 
+    flex-direction: column;
+    height: 100vh;
+ }
+
+ /*  
+      Como jogar o footer para baixo :
+      
+      Transforma em flex box, e depois deixa em coluna, logo após isso mudamos o altura
+      para 100 virtual heigth, e depois colocamos margin-top: auto;
+ */
+
+
+ header {
+    background-color: #00160d;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+ }
+
+ #logo {
+    height: 150px;
+ }
+
+
+ footer {
+    margin-top: auto;
+    background-color: #081c15;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    padding: 10px 0px;
+ }
+
+ #img-topo {
+    width: 100%;
+    height: 300px;
+    min-height: 250px;
+    background-image: url("../img/imagem-topo.png");
+    background-size: cover ;
+ }
+
+ nav {
+    background-color: #1b4332;
+    padding: 2px 0px;
+    text-align: center;
+ }
+
+ nav a {
+    text-decoration: none;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+ }
+
+ nav a:hover {
+    color: #ebcd42;
+    font-weight: bold;
+ }
+
+
+ #container {
+    margin: 20px;
+    padding: 50px 100px;
+    text-align: center;
+ }
+
+ h1 {
+    color: #22577a;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+ }
+
+
+ #destaque {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+ }
+
+ #destaque a {
+    text-decoration: none;
+    opacity: 0.88;   /* Deixa transparente */
+ }
+
+ #destaque a:hover {
+    opacity: 1.0;
+ }
