@@ -1,4 +1,4 @@
- 
+ /**************************************** ESTILOS PARA INDEX.HTML ******************************************/
 
  body {
     background-color: rgb(241, 255, 237);
@@ -93,3 +93,95 @@
  #destaque a:hover {
     opacity: 1.0;
  }
+
+
+
+ /************************************ ESTILOS PARA SOBRE.HTML *******************************************/
+
+
+#conteudo-empresa {
+   display: flex;
+}
+
+#conteudo-empresa-esquerda {
+   width: 50%;
+}
+
+#conteudo-empresa-direita {
+   width: 50%;
+}
+
+#conteudo-empresa-direita p {
+   padding-left: 20px;
+   text-align: justify;
+}
+
+#img-empresa {
+   width: 100%;
+   height: 100%;
+}
+
+#selo-melhores-empresas {
+   height: 25%;
+   margin-top: 35px;
+}
+
+
+/**************************************************** ESTILOS PARA SOLUÇÕES.HTML ************************************************/
+
+h2 {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: #22577a;
+   font-size: 28px;
+}
+.destaques-produto{
+   padding: 0px 15px;
+   background-color: #62ab82;
+   margin: 20px;
+}
+
+.destaques-produto a{
+   text-decoration: none;
+   color: rgb(255, 183, 0);
+}
+
+.destaques-produto a:hover {
+   font-weight: bold;
+
+}
+
+/****************************** ESTILOS CASOS.HTML *************************************************************/
+
+.detalhes-caso {
+   display: flex;
+   margin: 25px 0px;
+}
+
+.detalhes-caso img{
+   padding-right: 20px;
+}
+
+.detalhes-caso-texto {
+   text-align: start;
+}
+
+/********************************** ESTILOS CONTATO.HTML **********************************************************************/
+
+#frm-container {
+   display: flex;
+}
+
+
+#frm-labels {
+   background-color: #ebcd42;
+   width: 50%;
+   text-align: right;
+   padding-right: 15px;
+}
+
+#frm-fields {
+   background-color: #62ab82;
+   width: 50%;
+   text-align: left;
+   padding-left: 15px;
+}
