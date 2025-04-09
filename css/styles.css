@@ -173,14 +173,42 @@ h2 {
 
 
 #frm-labels {
-   background-color: #ebcd42;
+   background-color: rgb(241, 255, 237);
    width: 50%;
    text-align: right;
    padding-right: 15px;
 }
 
+#frm-mensagem {
+   resize: none;
+}
+
+#frm-container select, input, textarea {
+   width: 280px;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 15px;
+}
+
+#btn-enviar {
+   background-color: #37b400;
+   color: white;
+}
+
+#btn-cancelar {
+   background-color: #c4c4c4;
+}
+
+button {
+   width: 130px;
+   height: 35px;
+   font-size: 15px;
+   margin: 0px 15px;
+   border: 0px;
+}
+
+
 #frm-fields {
-   background-color: #62ab82;
+   background-color: rgb(241, 255, 237);
    width: 50%;
    text-align: left;
    padding-left: 15px;
